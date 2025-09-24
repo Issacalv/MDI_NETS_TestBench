@@ -12,7 +12,6 @@ https://datasci.zendesk.com/hc/article_attachments/4426726873363/Python_serial_s
 import serial
 import time
 
-# Configure serial connection
 ser = serial.Serial(
     port='COM4',
     baudrate=115200,
